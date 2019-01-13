@@ -1,0 +1,76 @@
+﻿<!--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="defult.aspx.cs" Inherits="kanoon.defult" %>-->
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+    <meta name="viewport" content="width=device-width" /> 
+    <link rel="stylesheet" media="only screen and (min-width:1024px)" href="css/main.css" />
+    <link rel="stylesheet" media="only screen and(min-width:0px) and(max-width:327px)" href="css/mobil.css" />
+    <link rel="stylesheet" media="only screen and(min-width:328px) and(max-width:768px)" href="css/tablet.css" />
+    <link href="css/slider.css" rel="stylesheet" />
+    <script src="js/slider.js"></script>
+
+    <title>main page</title>
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <div style="margin-top:2%">
+                <p>company name</p>
+                <p>explanation</p>
+            </div>
+            <div id="search">
+                <input type="submit" class="submit" value="">
+                <input class="input" type="text" value="Site Search" onBlur="if(this.value=='') this.value='Site Search'"
+                       onfocus="if(this.value =='Site Search' ) this.value=''">
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li id="active"><a href="homePage1.html">Home</a> </li>
+                    <li><a href="1.html">About</a></li>
+                    <li><a href="folio.html">Folio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li class="end"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div id="slider">
+                <img src="picture/big_img1.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img2.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img3.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img4.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img5.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img6.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img7.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img8.jpg" width="700" height="350" alt="" />
+                <img src="picture/big_img4.jpg" width="700" height="350" alt="" /> 
+            </div>
+
+        <form id="form1" runat="server">
+            <section id="=content"><h1 style="background-color:yellow;">hi</h1>
+                <!--<div class="line">
+                    <div id="line1">
+                        <p>shorte about us</p>
+                        <img id="img1" src="picture/page5_img1.jpg" /> 
+                        <img id="line-ver" src="picture/line_ver2.png" />
+                        <p></p>
+                    </div>-->
+                    <!--<div id="line2">
+                        <p>Experinces</p>
+                        <img id="line-ver" src="picture/line_ver2.png" />
+                    </div>
+                    <div id="line3">
+                        <p>Whats New</p>
+                        
+
+                    </div>
+                </div>-->
+                
+            </section>
+        </form>
+    </div>
+</body>
+</html>
